@@ -82,10 +82,10 @@ Try these example queries to test different leader responses:
 1. **State Management**: The workflow keeps track of the user query, assigned leader, and leader's response.
 
 2. **Classification**: The system analyzes the query to determine which leader should handle it based on their domains of expertise:
-   - Chairman (Asalah): Oversight, meetings, executive decisions
-   - Secretary (Mutune): Minutes, documentation, records
-   - Treasurer (Issah): Payments, refunds, financial matters
-   - ICT (Alila): Web application, technical support, maintenance
+   - Chairman: Oversight, meetings, executive decisions
+   - Secretary: Minutes, documentation, records
+   - Treasurer: Payments, refunds, financial matters
+   - ICT: Web application, technical support, maintenance
 
 3. **Routing**: The query is directed to the appropriate leader based on the classification.
 
@@ -111,10 +111,6 @@ You can customize the system by:
 - langchain-google-genai - Integration with Google's Gemini models
 - langgraph - Graph-based workflows for LLM applications
 - pydantic - Data validation and settings management
-
-## License
-
-See the LICENSE file for details.
 
 ## Contributing
 
