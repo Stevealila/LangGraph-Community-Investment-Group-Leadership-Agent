@@ -12,7 +12,7 @@ The system consists of a workflow that:
 
 ## Prerequisites
 
-- Python 3.9+
+- Python 3.13+
 - Google Gemini API key
 
 ## Installation
@@ -23,25 +23,16 @@ git clone https://github.com/Stevealila/LangGraph-Community-Investment-Group-Lea
 cd LangGraph-Community-Investment-Group-Leadership-Agent
 ```
 
-2. Set up a virtual environment:
+2. Set up a virtual environment and install dependencies:
 ```bash
-# Using venv
+# Using uv (recommended) — creates venv and installs dependencies in one step
+pip install uv
+uv sync
+
+# OR using pip
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# OR using uv (recommended)
-pip install uv
-uv venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
-# Using pip
 pip install -r requirements.txt
-
-# OR using uv (recommended)
-uv add -r requirements.txt
 ```
 
 4. Set up environment variables:
@@ -82,7 +73,7 @@ Try these example queries to test different leader responses:
 
 ## Project Structure
 
-- `agent.py` - Main implementation of the LangGraph workflow
+- `agent.ipynb` - Main implementation of the LangGraph workflow
 - `requirements.txt` - Dependencies required for the project
 - `.env.example` - Template for environment variables
 
