@@ -1,6 +1,6 @@
-# LangGraph Community Investment Group Leadership Agent
+# Investment Group Leadership Agent
 
-This repository contains a LangGraph implementation for a role-based leadership routing system that directs user queries to the appropriate organizational leader based on their domain expertise.
+This repository contains a role-based leadership routing system that directs user queries to the appropriate organizational leader based on their domain expertise.
 
 ## Overview
 
@@ -19,8 +19,8 @@ The system consists of a workflow that:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Stevealila/LangGraph-Community-Investment-Group-Leadership-Agent.git
-cd LangGraph-Community-Investment-Group-Leadership-Agent
+git clone https://github.com/Stevealila/Investment-Group-Leadership-Agent.git
+cd Investment-Group-Leadership-Agent
 ```
 
 2. Set up a virtual environment and install dependencies:
